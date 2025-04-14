@@ -1,0 +1,68 @@
+{
+    "products": [
+        {
+            "id": "1",
+            "imgs": "https://s3-alpha-sig.figma.com/img/775f/b909/fb9c1e4f38c1eaaf0239dafc273ec6bf?Expires=1745193600&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=rlUdqYszGGBjEm7VMhQjh7lfGXWW7sXZiLB3F~wqHa0aMPr1SeOCtJacTKszTgGTuJYKdeRdMKcfyhVgZE2cSIl8Mw5Y0YYLsBYKPTxf8xCRUs~uM4etU~fyclZ2jUpIgeXJJ4d-PkG3WYXrVcKIhWdKhS8Py-mHxM9qS2FpuE8yqEZa4QxchPLjuBOIaahCv14vYXaqeXijSJwxq2F3xXY95RsDFX~ms~hXFY~ZEAma~2ioekokcNR8iJALJXbpPaKfZ~yXxEsD2ivg8CWsVYOzBtp8oiQiTaqlI0tlnPQcWKaHV2DOpXT1-sOaktHPu9VN6c3gUwaj99jt2QpwJA__",
+            "title": "Qo'y bo'yin (muzlatilgan)",
+            "price": "8800",
+            "discount_price": "7,040",
+            "btn": "Qo'shish"
+        },
+        {
+            "id": "2",
+            "imgs": "https://s3-alpha-sig.figma.com/img/ca11/ed14/53aca2f747e9931ce50bda29642aae30?Expires=1745193600&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=q4tHK0X-XaTFRIIPqt7jHtWZ6HmqGTRZ2Z14ojWtjcCgXoQMxI0EYPszNpvzZcj3R655t~MT7qFQxw1jmAAxrcKEvfU7ArKuMEKxqj42pk203bsCQFqrCv1RFXcV7YiHWenO7EGcREmcsWKaOEThPG9wlzJ6WL~IV84lfoCnFMPxFZPb8CgMSKzXEKGNzTu9kTHYgKbcerduasR2lJzS7uQLp-VhvrLVxV~KtBeDb3rvUMFmlTTSomGFVhAaTYdRgfAsNQyKUvT-Cj8Ne8DukvRCh2qGOc2OpnjnxpLoiPUXEvuC7ozk1VOF08IyWnXb2T6PoiaJG0BLv8wPi7xC9g__",
+            "title": "Qo'y bo'yin (muzlatilgan)",
+            "price": "8800",
+            "discount_price": "7,040",
+            "btn": "Qo'shish"
+        },
+        {
+            "id": "3",
+            "imgs": "https://s3-alpha-sig.figma.com/img/1eca/774e/1baca0ac075171825665f75d1c6ad263?Expires=1745193600&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=Qtaf0JMpkRSA3xEB0TqkgxlTVjqWWZlkt1tgI5GglF-hxX5z~TFXbJe5Ca7LqbzZLIHcfLW6J8j4FfDtrbnCnuzhn~9Y~u0w-ksMCDMlNZhgWQIccXErFRAn5jG06G90zooEyvij3iFhGYJ2vQ70pAYkOHP6WrGsYa-b2qwqQvJdic-fEFIg1OS2L1Z-c4lOJ5286IKsuPKDjFP6L0~fBFAbmEL8uUX12akDfFWEr5RwCn9lsWQzi0OgMjh52Fi0UeglcSAJt58giDmBjf8hUM1WY5xkB7FqUMgcdVpPFnNZHkZp43NNihItPAwvEfdEIcuERORsQLJ6G5BRVdvVzA__",
+            "title": "Qo'y bo'yin (muzlatilgan)",
+            "price": "8800",
+            "discount_price": "7,040",
+            "btn": "Qo'shish"
+        },
+        {
+            "id": "4",
+            "imgs": "https://s3-alpha-sig.figma.com/img/9cd1/a41d/a6475c07725bac1493c9a2a08d101e81?Expires=1745193600&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=WljwAhfJGhRyZcs-HHEBnXgDouvmGa5SkgsxY1pOsM6H5s5avil1iji4cnW4la2k6kOvNhzlqlSQNyiLAL5euPJ-ADpWaLMg3MPSqqOuBB5XRA6DD1-IMyVuhKAWY3u0nBWFgMQImaB0roBzPVdd4OmSR4jZRIWCdbwIPf-IlzXPNRVWIL2TVoyWXUYbhaaaSO2Hxg3srKvLlsliIsjm5c84PF9OP7w7Yekd-0cPVytPGPfdVWcpMO1en8-HRgtMAQBHyQojtB8XDdzq5STflIHAyqVg8XFoGKkb~1mN~XSj8ixjbGXrLZDSdKl7H11q-LIyjZqFCHE0t3IgwkLkeQ__",
+            "title": "Qo'y bo'yin (muzlatilgan)",
+            "price": "8800",
+            "discount_price": "7,040",
+            "btn": "Qo'shish"
+        },
+        {
+            "id": "5",
+            "imgs": "https://s3-alpha-sig.figma.com/img/8c9b/df89/1aad2c075ad16abb3d98a05daa81f187?Expires=1745193600&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=ms9Mw4hefUIli3doxWLp2CZE5dWI1wFEryE2ICvFcpXjPxhLAYk9MxZJHXgj6eYSOPDcUT7QquG2xuerDVpgyPE0k4o6fLDyM~CWQLSLWf59FNO0brcLcvEhxrTaDIItGI5IkqMhiv8V4~1kRPnIU~DKg~yjI26-aTXrVkXeR-zTqNOtiStbMbM-m7jkb-Nsw7hCuT5sfmKHkehjG6ds1H8AXpILra9HfCYhqLKPonwLTR5DLIxaCdsP3MCzpOdM7EkPzOWKrNxxc5H7G1xpEnQR9ic25Ia3tH71BsytMMyx6tQDO4GvPl5W0XjshpRaXnXR0whDIULn8103On3MSw__",
+            "title": "Qo'y bo'yin (muzlatilgan)",
+            "price": "8800",
+            "discount_price": "7,040",
+            "btn": "Qo'shish"
+        },
+        {
+            "id": "6",
+            "imgs": "https://s3-alpha-sig.figma.com/img/8c9b/df89/1aad2c075ad16abb3d98a05daa81f187?Expires=1745193600&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=ms9Mw4hefUIli3doxWLp2CZE5dWI1wFEryE2ICvFcpXjPxhLAYk9MxZJHXgj6eYSOPDcUT7QquG2xuerDVpgyPE0k4o6fLDyM~CWQLSLWf59FNO0brcLcvEhxrTaDIItGI5IkqMhiv8V4~1kRPnIU~DKg~yjI26-aTXrVkXeR-zTqNOtiStbMbM-m7jkb-Nsw7hCuT5sfmKHkehjG6ds1H8AXpILra9HfCYhqLKPonwLTR5DLIxaCdsP3MCzpOdM7EkPzOWKrNxxc5H7G1xpEnQR9ic25Ia3tH71BsytMMyx6tQDO4GvPl5W0XjshpRaXnXR0whDIULn8103On3MSw__",
+            "title": "Qo'y bo'yin (muzlatilgan)",
+            "price": "8800",
+            "discount_price": "7,040",
+            "btn": "Qo'shish"
+        },
+        {
+            "id": "7",
+            "imgs": "https://s3-alpha-sig.figma.com/img/a3bc/3953/b03b063709f2f8fbbb48bb0702315936?Expires=1745193600&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=SNlfdbuWxJZov2d-124~iUX08Rv3BiXnfeBOqISnZGdJZ4b8wdgEYPoWOCdxw69eb1kQvnFGIKpAYWYKY8cPHO~2h8nkz9ZdmWHxdCtpG61vglBZdaRj40LmL3fFrK6~a0WUwnu9PW5hd3l8wj~nDZm~AFJB1xdRvHgf6I2Gchy~T3nJLcXJiv0qQOPeKLaV~aqwe4-Q96LOJ7iSYUVZwJjM9GxjIqQTa9Yo-jEl7Gyqbp84tkvld8QhUfPgGGYer4d1zq6DK-qpw1Oin3jnfuU~zmiLkRQuYHZpbY2bHAnm05pe5TxQ0U9EmxCk0jtvwVrijPu~SJnvWWZfUJ1ZUw__",
+            "title": "Qo'y bo'yin (muzlatilgan)",
+            "price": "8800",
+            "discount_price": "7,040",
+            "btn": "Qo'shish"
+        },
+        {
+            "id": "8",
+            "imgs": "https://s3-alpha-sig.figma.com/img/54a6/88b9/0abb3775c6ced0cbc3146d6dd4a0165f?Expires=1745193600&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=EEG5EeLx1aBQojhM1SjwDLeygkdtS6BesRGZry~VR0-XR64WEW3q5HWKG1oVNoHspbo-o5ypTgEN~VgSAiWSBZFhhT1ohX03ZnT70WEDQQHU6m5yFwDTn6OaQ-8bqP5tKrbQvPSgQIk3VyZ-FGY-jMVirJsWaIQC9CnVg4MFjXVljuYeozu6Ma-76mtU~Y72tMBDQ5VIRs-WJBQFxu03aoB2RIEwnJkmGuopQOyISlBGmPl6juHwA1ro5j7Viwz7PPNCotqZ9FszcXB3-15kKYInjPwG-T3pJSpKaXLYfmyw71wMdH~A1dZxUCMt9Xfj95cO1D-NMfAZQtUfNPD32g__",
+            "title": "Qo'y bo'yin (muzlatilgan)",
+            "price": "8800",
+            "discount_price": "7,040",
+            "btn": "Qo'shish"
+        }
+    ]
+}
