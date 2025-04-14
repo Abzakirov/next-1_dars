@@ -3,7 +3,6 @@ import { useState, useEffect } from "react";
 import Link from "next/link";
 
 const Header = () => {
-  const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
 
   useEffect(() => {
@@ -23,30 +22,8 @@ const Header = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between h-16 items-center">
           <div className="flex items-center">
-            <button
-              className="text-gray-700 hover:text-gray-900 focus:outline-none"
-              onClick={() => setIsMenuOpen(!isMenuOpen)}
-            >
-              <svg className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                {isMenuOpen ? (
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth={2}
-                    d="M6 18L18 6M6 6l12 12"
-                  />
-                ) : (
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth={2}
-                    d="M4 6h16M4 12h16M4 18h16"
-                  />
-                )}
-              </svg>
-            </button>
             <Link href="/" className="ml-2">
-              <img src="/Logo.png" alt="" />
+              <img src="/Logo.png" alt="Logo" />
             </Link>
           </div>
 
@@ -115,74 +92,6 @@ const Header = () => {
           </div>
         </div>
       </div>
-
-      {/* Mobile menu */}
-      {isMenuOpen && (
-        <div className="bg-white shadow-lg">
-          <div className="px-4 pt-2 pb-4 space-y-2">
-            <div className="relative mt-2">
-              <div className="absolute w-[20px] inset-y-0 left-0 pl-3 flex items-center "></div>
-              <input
-                type="text"
-                placeholder="Search"
-                className="block w-full pl-10 pr-3 py-2 border border-gray-300 rounded-md leading-5 bg-white placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500 sm:text-sm"
-              />
-            </div>
-
-            <Link
-              href="#"
-              className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50"
-            >
-              Qutinh
-            </Link>
-            <Link
-              href="#"
-              className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50"
-            >
-              Buchwab
-            </Link>
-            <Link
-              href="#"
-              className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50"
-            >
-              Prome
-            </Link>
-            <Link
-              href="#"
-              className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50"
-            >
-              Liz / U25
-            </Link>
-            <Link
-              href="#"
-              className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50"
-            >
-              Bog'lanish
-            </Link>
-
-            <div className="pt-2 border-t border-gray-200">
-              <div className="flex items-center justify-between px-3 py-2">
-                <div className="relative">
-                  <select className="appearance-none bg-transparent border-none text-gray-700 hover:text-gray-900 text-base font-medium focus:outline-none focus:ring-0 pl-2 pr-6">
-                    <option>UZ</option>
-                    <option>EN</option>
-                    <option>RU</option>
-                  </select>
-                  <div className="absolute right-0 top-1/2 transform -translate-y-1/2 pointer-events-none">
-                    <svg className="h-4 w-4 text-gray-400" fill="currentColor" viewBox="0 0 20 20">
-                      <path
-                        fillRule="evenodd"
-                        d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
-                        clipRule="evenodd"
-                      />
-                    </svg>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      )}
     </nav>
   );
 };
