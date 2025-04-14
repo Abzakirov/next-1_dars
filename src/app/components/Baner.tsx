@@ -10,7 +10,7 @@ import phone from "../../../public/phone.svg";
 
 const SwiperBanner = () => {
   return (
-    <div className="w-full px-4 md:px-8 mt-4 relative">
+    <div className="w-full px-4 mt-4 relative">
       <style jsx global>{`
         .swiper-button-next,
         .swiper-button-prev {
@@ -45,12 +45,12 @@ const SwiperBanner = () => {
         }}
         loop={true}
         speed={800}
-        className="rounded-lg bg-[#C4EAD2] p-6 h-[180px] md:h-[200px]"
+        className="rounded-lg bg-[#C4EAD2] p-6 h-[180px]"
       >
         {[1, 2].map((item) => (
           <SwiperSlide key={item}>
-            <div className="flex flex-col justify-center h-full gap-4 px-4 md:px-10">
-              <h2 className="text-lg md:text-2xl font-bold max-w-[572px]">
+            <div className="flex flex-col justify-center h-full gap-4 px-4">
+              <h2 className="text-lg font-bold max-w-[572px]">
                 Yangi royxatdan otgan mijozlarga ilk buyurtma bepul yetkazib
                 beriladi!
               </h2>

@@ -13,8 +13,8 @@ const menuItems = [
 
 export default function Sidebar() {
   return (
-    <div className="w-64 h-screen bg-white shadow-sm  overflow-y-auto mt-5">
-      <div className="p-4 border-b border-gray-100  bg-white">
+    <div className="w-64 h-screen bg-white shadow-sm overflow-y-auto mt-5">
+      <div className="p-4 border-b border-gray-100 bg-white">
         <h4 className="font-medium text-gray-800">O'zbekistonga yetkazish</h4>
       </div>
 
@@ -35,8 +35,8 @@ export default function Sidebar() {
 
 function MenuItem({ label }: { label: string }) {
   return (
-    <a href="#" className="group flex items-center justify-between py-2.5 px-3 rounded-lg hover:bg-blue-50 transition-colors duration-200 mb-1">
-      <span className="text-gray-700 group-hover:text-blue-600 transition-colors duration-200 text-sm font-medium">
+    <a href="#" className="flex items-center justify-between py-2.5 px-3 rounded-lg mb-1">
+      <span className="text-gray-700 text-sm font-medium">
         {label}
       </span>
       <svg
@@ -45,7 +45,7 @@ function MenuItem({ label }: { label: string }) {
         viewBox="0 0 24 24"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
-        className="text-gray-400 group-hover:text-blue-500 group-hover:translate-x-1 transition-all duration-200"
+        className="text-gray-400"
       >
         <path
           d="M9 18L15 12L9 6"

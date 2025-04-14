@@ -10,7 +10,7 @@ const Footer = () => {
   return (
     <footer className="bg-white shadow-md w-full">
       <div className="container mx-auto px-4 py-10 max-w-7xl">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 lg:gap-12">
+        <div className="grid grid-cols-1 gap-8 lg:gap-12">
           
           {/* Brand Column */}
           <div className="space-y-4">
@@ -27,14 +27,14 @@ const Footer = () => {
             
             {/* App Buttons */}
             <div className="flex space-x-3 pt-2">
-              <div className="transition-transform hover:-translate-y-0.5 active:scale-95">
+              <div>
                 <Image
                   src={google}
                   alt="Google Play"
                   className="cursor-pointer h-10 w-auto"
                 />
               </div>
-              <div className="transition-transform hover:-translate-y-0.5 active:scale-95">
+              <div>
                 <Image
                   src={app}
                   alt="App Store"
@@ -54,7 +54,7 @@ const Footer = () => {
                 <li key={link}>
                   <a
                     href="#"
-                    className="text-gray-600 hover:text-gray-900 inline-block transition-all hover:translate-x-1"
+                    className="text-gray-600 inline-block"
                   >
                     {link}
                   </a>
