@@ -29,7 +29,7 @@ const Products = () => {
     setIsClient(true);
     const fetchData = async () => {
       const res = await fetch(
-        "https://676e39ccdf5d7dac1cca000c.mockapi.io/products"
+        "http://localhost:3001/products"
       );
       const json = await res.json();
       setData(json);
