@@ -50,20 +50,20 @@ const Products = () => {
         {data.map((value) => (
           <div
             key={value.id}
-            className="group bg-white rounded-xl shadow-sm hover:shadow-md transition-all duration-300 overflow-hidden border border-gray-100 hover:border-green-200 relative"
+            className="bg-white rounded-xl shadow-sm overflow-hidden border border-gray-100 relative"
           >
             <div className="relative w-full h-60 overflow-hidden">
               <Image
                 src={value.img}
                 alt={value.title}
                 fill
-                className="object-contain p-5 group-hover:scale-105 transition-transform duration-500"
+                className="object-contain p-5"
                 sizes="(max-width: 640px) 100vw, (max-width: 768px) 50vw, 25vw"
               />
 
               <div className="absolute top-0 left-0 right-0 flex justify-between p-3">
                 {value.discount > 0 && (
-                  <div className="bg-gradient-to-r from-orange-400 to-orange-500 text-white text-xs font-bold px-2 py-1 rounded-full shadow-md animate-pulse">
+                  <div className="bg-gradient-to-r from-orange-400 to-orange-500 text-white text-xs font-bold px-2 py-1 rounded-full shadow-md">
                     {value.discount}%
                   </div>
                 )}
@@ -88,30 +88,30 @@ const Products = () => {
                 {value.title}
               </h3>
 
-              {/* Price with slide-in animation */}
+              {/* Price */}
               <div className="flex items-center gap-2 overflow-hidden">
-                <span className="flex items-center font-bold text-lg text-green-600 group-hover:translate-x-0.5 transition-transform duration-300">
+                <span className="flex items-center font-bold text-lg text-green-600">
                   {value.price.toLocaleString()}
                   <Image src={wwB} alt="so'm" width={16} height={16} className="ml-0.5" />
                 </span>
                 {value.currentPrice && (
-                  <del className="flex items-center text-gray-400 text-sm group-hover:-translate-x-0.5 transition-transform duration-300">
+                  <del className="flex items-center text-gray-400 text-sm">
                     {value.currentPrice.toLocaleString()}
                     <Image src={ww} alt="so'm" width={14} height={14} className="ml-0.5" />
                   </del>
                 )}
               </div>
 
-              {/* Interactive button section */}
+              {/* Button */}
               <div className="mt-2">
                 {value.btn === "counter" ? (
                   <div className="space-y-2">
-                    <div className="flex items-center justify-between bg-green-50 rounded-xl px-3 py-2 group-hover:bg-green-100 transition-colors duration-300">
-                      <button className="text-lg font-bold text-gray-600 hover:text-green-600 transition-colors duration-200 w-6 h-6 flex items-center justify-center rounded-full hover:bg-green-200">
+                    <div className="flex items-center justify-between bg-green-50 rounded-xl px-3 py-2">
+                      <button className="text-lg font-bold text-gray-600 w-6 h-6 flex items-center justify-center rounded-full">
                         −
                       </button>
                       <span className="text-lg font-semibold text-gray-700">20</span>
-                      <button className="text-lg font-bold text-gray-600 hover:text-green-600 transition-colors duration-200 w-6 h-6 flex items-center justify-center rounded-full hover:bg-green-200">
+                      <button className="text-lg font-bold text-gray-600 w-6 h-6 flex items-center justify-center rounded-full">
                         +
                       </button>
                     </div>
@@ -120,13 +120,12 @@ const Products = () => {
                     </p>
                   </div>
                 ) : (
-                  <button className="w-full flex items-center justify-center gap-2 py-3 px-4 bg-gradient-to-r from-green-50 to-green-100 hover:from-green-100 hover:to-green-200 rounded-xl font-medium text-green-700 hover:text-green-800 transition-all duration-300 group-hover:shadow-inner">
+                  <button className="w-full flex items-center justify-center gap-2 py-3 px-4 bg-gradient-to-r from-green-50 to-green-100 rounded-xl font-medium text-green-700">
                     <Image 
                       src={shop} 
                       alt="shop" 
                       width={18} 
                       height={18} 
-                      className="group-hover:rotate-12 transition-transform duration-300" 
                     />
                     Savatga qo'shish
                   </button>
@@ -134,10 +133,7 @@ const Products = () => {
               </div>
             </div>
 
-            {/* Ribbon for new items */}
-            <div className="absolute top-3 right-3 rotate-12 bg-green-500 text-white text-xs font-bold px-2 py-1 rounded">
-              Yangi
-            </div>
+        
           </div>
         ))}
       </div>
